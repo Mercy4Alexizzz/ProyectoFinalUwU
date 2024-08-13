@@ -1,0 +1,10 @@
+C:\Users\danie\source\repos\ProyectoFinalUwU\ProyectoFinalUwU\bin\Debug\ProyectoFinalUwU.exe.config
+C:\Users\danie\source\repos\ProyectoFinalUwU\ProyectoFinalUwU\bin\Debug\ProyectoFinalUwU.exe
+C:\Users\danie\source\repos\ProyectoFinalUwU\ProyectoFinalUwU\bin\Debug\ProyectoFinalUwU.pdb
+C:\Users\danie\source\repos\ProyectoFinalUwU\ProyectoFinalUwU\obj\Debug\ProyectoFinalUwU.csproj.AssemblyReference.cache
+C:\Users\danie\source\repos\ProyectoFinalUwU\ProyectoFinalUwU\obj\Debug\ProyectoFinalUwU.Form1.resources
+C:\Users\danie\source\repos\ProyectoFinalUwU\ProyectoFinalUwU\obj\Debug\ProyectoFinalUwU.Properties.Resources.resources
+C:\Users\danie\source\repos\ProyectoFinalUwU\ProyectoFinalUwU\obj\Debug\ProyectoFinalUwU.csproj.GenerateResource.cache
+C:\Users\danie\source\repos\ProyectoFinalUwU\ProyectoFinalUwU\obj\Debug\ProyectoFinalUwU.csproj.CoreCompileInputs.cache
+C:\Users\danie\source\repos\ProyectoFinalUwU\ProyectoFinalUwU\obj\Debug\ProyectoFinalUwU.exe
+C:\Users\danie\source\repos\ProyectoFinalUwU\ProyectoFinalUwU\obj\Debug\ProyectoFinalUwU.pdb

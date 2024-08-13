@@ -31,8 +31,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.lblnum1 = new System.Windows.Forms.Label();
             this.lblnum2 = new System.Windows.Forms.Label();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
+            this.Valor1 = new System.Windows.Forms.MaskedTextBox();
+            this.Valor2 = new System.Windows.Forms.MaskedTextBox();
             this.lbloperacion = new System.Windows.Forms.Label();
             this.btnsuma = new System.Windows.Forms.Button();
             this.btnresta = new System.Windows.Forms.Button();
@@ -75,20 +75,21 @@
             this.lblnum2.TabIndex = 2;
             this.lblnum2.Text = "Segundo valor";
             // 
-            // maskedTextBox1
+            // Valor1
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(108, 112);
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(105, 22);
-            this.maskedTextBox1.TabIndex = 3;
+            this.Valor1.Location = new System.Drawing.Point(108, 112);
+            this.Valor1.Name = "Valor1";
+            this.Valor1.Size = new System.Drawing.Size(105, 22);
+            this.Valor1.TabIndex = 3;
+            this.Valor1.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox1_MaskInputRejected);
             // 
-            // maskedTextBox2
+            // Valor2
             // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(614, 112);
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(111, 22);
-            this.maskedTextBox2.TabIndex = 4;
-            this.maskedTextBox2.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox2_MaskInputRejected);
+            this.Valor2.Location = new System.Drawing.Point(614, 112);
+            this.Valor2.Name = "Valor2";
+            this.Valor2.Size = new System.Drawing.Size(111, 22);
+            this.Valor2.TabIndex = 4;
+            this.Valor2.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox2_MaskInputRejected);
             // 
             // lbloperacion
             // 
@@ -110,6 +111,7 @@
             this.btnsuma.TabIndex = 6;
             this.btnsuma.Text = "Sumar";
             this.btnsuma.UseVisualStyleBackColor = false;
+            this.btnsuma.Click += new System.EventHandler(this.btnsuma_Click);
             // 
             // btnresta
             // 
@@ -121,6 +123,7 @@
             this.btnresta.TabIndex = 7;
             this.btnresta.Text = "Restar";
             this.btnresta.UseVisualStyleBackColor = false;
+            this.btnresta.Click += new System.EventHandler(this.btnresta_Click);
             // 
             // btnmult
             // 
@@ -132,6 +135,7 @@
             this.btnmult.TabIndex = 8;
             this.btnmult.Text = "Multiplicar";
             this.btnmult.UseVisualStyleBackColor = false;
+            this.btnmult.Click += new System.EventHandler(this.btnmult_Click);
             // 
             // btndividir
             // 
@@ -143,6 +147,7 @@
             this.btndividir.TabIndex = 9;
             this.btndividir.Text = "Dividir";
             this.btndividir.UseVisualStyleBackColor = false;
+            this.btndividir.Click += new System.EventHandler(this.btndividir_Click);
             // 
             // lblresultado
             // 
@@ -175,8 +180,8 @@
             this.Controls.Add(this.btnresta);
             this.Controls.Add(this.btnsuma);
             this.Controls.Add(this.lbloperacion);
-            this.Controls.Add(this.maskedTextBox2);
-            this.Controls.Add(this.maskedTextBox1);
+            this.Controls.Add(this.Valor2);
+            this.Controls.Add(this.Valor1);
             this.Controls.Add(this.lblnum2);
             this.Controls.Add(this.lblnum1);
             this.Controls.Add(this.label1);
@@ -192,8 +197,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblnum1;
         private System.Windows.Forms.Label lblnum2;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
+        private System.Windows.Forms.MaskedTextBox Valor1;
+        private System.Windows.Forms.MaskedTextBox Valor2;
         private System.Windows.Forms.Label lbloperacion;
         private System.Windows.Forms.Button btnsuma;
         private System.Windows.Forms.Button btnresta;
